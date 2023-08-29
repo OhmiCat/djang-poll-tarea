@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h3 style = "margin-bottom: 20px"><strong>Elige tu Pregunta de la Encuesta:</strong></h3>
+
+<h4>{{survey.name}}</h4>
+
+<div class="list-group">
+    {% for option in options %}
+    <a href=" {% url 'vote' option.id %} " class="list-group-item list-group-item-action">
+        <h5>{{option.text}}</h5></a>
+   {% endfor %}
+    
+</div>
+
+{% endblock %}

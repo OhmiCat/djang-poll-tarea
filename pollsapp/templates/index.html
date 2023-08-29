@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h3><strong>Elige Encuestas</strong></h3>
+
+<div class="list-group">
+    {% for survey in surveys %}
+    <a href=" {% url 'survey' survey.id %} " class="list-group-item list-group-item-action">
+        <h5>{{survey.name}}</h5></a>
+   {% endfor %}
+    
+</div>
+
+    
+
+{% endblock %}
