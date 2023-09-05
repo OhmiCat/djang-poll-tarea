@@ -17,7 +17,7 @@ Para visualizar el README.md, favor de presionar _Ctrl+Shift+V_ aquí.
 
 ---
 
-1. Clonar el repositorio en github: git clone https://github.com/OhmiCat/djang-poll-tarea.gits
+1. Clonar el repositorio en github: git clone https://github.com/OhmiCat/djang-poll-tarea.git
 2. Crear un archivo venv en la raiz del proyecto (en caso ya va incluido, pero no debe ir):
    - py -3.10 -m venv venv
 3. Activar el entorno virtual:
